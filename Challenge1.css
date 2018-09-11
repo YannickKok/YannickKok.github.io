@@ -15,10 +15,10 @@ h1 {
     font-weight: normal;
     background-color: #46b8e9;
     color: white;
-    font-size: 28px;
+    font-size: 22px;
     padding: 5px;
     height: 75px;
-    width: 360px;
+    width: 300px;
     margin-top: 0px;
     margin-bottom: -5px;
 
@@ -48,11 +48,13 @@ p {
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 100%;
+    height: 170px;
 
 }
 
 #item {
-	width: 362px;
+	width: 300px;
 	height: 400px;
 	float: left;
 	background-color: white;
@@ -66,7 +68,22 @@ p {
 @media only screen and (min-width: 400px) and (max-width: 599px) {
 	#item {
 		width: 362px;
-	}
+    }
+    
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        background-color: #46b8e9;
+        color: white;
+        font-size: 28px;
+        padding: 5px;
+        height: 75px;
+        width: 362px;
+        margin-top: 0px;
+        margin-bottom: -5px;
+    
+    
+    }
 }
 
 /**********End Mid************/
@@ -75,7 +92,22 @@ p {
 @media only screen and (min-width: 600px) and (max-width: 959px){
 	#item {
 		width: 362px;
-	}
+    }
+    
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        background-color: #46b8e9;
+        color: white;
+        font-size: 28px;
+        padding: 5px;
+        height: 75px;
+        width: 362px;
+        margin-top: 0px;
+        margin-bottom: -5px;
+    
+    
+    }
 }
 
 /*********End Large***********/
@@ -88,7 +120,22 @@ p {
 	}
 	#item {
 		width: 362px;
-	}
+    }
+    
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        background-color: #46b8e9;
+        color: white;
+        font-size: 28px;
+        padding: 5px;
+        height: 75px;
+        width: 362px;
+        margin-top: 0px;
+        margin-bottom: -5px;
+    
+    
+    }
 }
 
 /**********End XL************/
