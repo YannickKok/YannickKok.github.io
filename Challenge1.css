@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-margin-before: 0em;
+    -webkit-padding-start: 0;
+    -webkit-margin-after: 0em;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color: #46b8e9;
+    color: white;
+    font-size: 28px;
+    padding: 5px;
+    height: 75px;
+    width: 360px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+
+
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+    -webkit-margin-before: 10px;
+    margin-left: 5px;
+    -webkit-padding-start: 0;
+    -webkit-margin-after: 0px;
+}
+
+
+.container {
+	width: 100%;
+	background-color: white;
+	overflow: auto;
+}
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#item {
+	width: 362px;
+	height: 400px;
+	float: left;
+	background-color: white;
+	border: 1px solid #999;
+}
+
+
+/**********End Small (Global)*/
+
+/************Mid**************/
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+	#item {
+		width: 362px;
+	}
+}
+
+/**********End Mid************/
+
+/***********Large*************/
+@media only screen and (min-width: 600px) and (max-width: 959px){
+	#item {
+		width: 362px;
+	}
+}
+
+/*********End Large***********/
+
+/************XL**************/
+@media only screen and (min-width: 960px) {
+	.container {
+		max-width: 1460px;
+		margin: 0 auto;
+	}
+	#item {
+		width: 362px;
+	}
+}
+
+/**********End XL************/
